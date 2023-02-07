@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/Default.css" />
+    <link rel="stylesheet" href="../static/css/normalize.css" />
+    <title>Mi calculadora</title>
+  </head>
+  <body>
+  
+    <div id="contenedor_calculadora">
+      
+      <div class="calculadora">
+         <div id="calculadora-input">
+             <p id="pantalla" ></p>
+        </div>
+
+        <div id="calculadora-botones">
+            <div class="contenedor-boton">
+                <button onclick="limpiar()" class="boton-opciones"  >AC</button>
+            </div>
+            <div class="contenedor-boton">
+                <button  class="boton-opciones">+/-</button>
+            </div>
+            <div class="contenedor-boton">
+                <button onclick="input_valor('%')"  class="boton-opciones">%</button>
+            </div>
+            <div class="contenedor-boton">
+                <button onclick="input_valor('/')"class="boton-operaciones" >/</button>
+            </div>
+            <div class="contenedor-boton">
+                <button onclick="input_valor(7)" class="boton-numerico" >7</button>
+            </div>
+            <div class="contenedor-boton">
+                <button   onclick="input_valor(8)" class="boton-numerico" >8</button>
+            </div>
+            <div class="contenedor-boton">
+                <button   onclick="input_valor(9)" class="boton-numerico" >9</button>
+            </div>
+            <div class="contenedor-boton">
+                <button  onclick="input_valor('*')"  class="boton-operaciones">X</button>
+            </div>
+            <div class="contenedor-boton">
+                <button   onclick="input_valor(4)" class="boton-numerico" >4</button>
+            </div>
+            <div class="contenedor-boton">
+                <button  onclick="input_valor(5)" class="boton-numerico" >5</button>
+            </div>
+            <div class="contenedor-boton">
+                <button onclick="input_valor(6)"  class="boton-numerico" >6</button>
+            </div>
+            <div class="contenedor-boton">
+                <button  onclick="input_valor('-')" class="boton-operaciones">-</button>
+            </div>
+            <div class="contenedor-boton">
+                <button  onclick="input_valor(1)" class="boton-numerico" >1</button>
+            </div>
+            <div class="contenedor-boton">
+                <button onclick="input_valor(2)" class="boton-numerico" >2</button>
+            </div>
+            <div class="contenedor-boton">
+                <button onclick="input_valor(3)" class="boton-numerico" >3</button>
+            </div>
+            <div class="contenedor-boton">
+                <button onclick="input_valor('+')"  class="boton-operaciones">+</button>
+            </div>
+
+            <div class="contenedor-boton">
+                <button onclick="input_valor(0)" id="boton-0" class="boton-numerico">0</button>
+            </div>
+            <div class="contenedor-boton">
+                <button onclick="input_valor('.')" class="boton-numerico">.</button>
+            </div>
+            <div class="contenedor-boton">
+                <button onclick="resultado()" class="boton-operaciones">=</button>
+            </div>
+          
+        </div>
+       
+        
+    </div>
+    <footer>
+        <p>Develop by David Suarez</p>
+    </footer>
+    <script src="../static/js/logica.js"></script>
+  </body>
+</html>

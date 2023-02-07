@@ -1,0 +1,104 @@
+
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+body{
+    
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
+}
+#contenedor_calculadora{
+
+padding-top: 20px;
+
+}
+.calculadora{
+    position: relative;
+    height: 600px;
+    width: 370px;
+    padding-top: 20px;
+    margin: 0px auto 0px auto ;
+    border-radius: 20px;
+    
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+
+#calculadora-input{
+
+    font-size: 50px;
+    text-align: end;
+    color: beige; 
+    width: 90%;
+    padding-top: 60px;
+    padding-left: 5px; 
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+    border: solid 0.1px rgb(69, 69, 69);
+    background-color: black;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#calculadora-botones{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 370px;
+    padding-left: 5px;
+}
+
+.contenedor-boton{
+ display: inline-block;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 40px;
+ 
+}
+
+#boton-0{
+    width: 160px;
+}
+button{
+    color: rgb(0, 0, 0);
+    border: solid 0.1px rgb(50, 50, 50);
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+   
+}
+.boton-numerico{
+    color: white;
+    background-color:#333333;
+}
+.boton-opciones{
+    background-color: #a7a7a7;
+}
+.boton-operaciones{
+    color: white;
+    background-color:#f9942c;
+}
+
+.boton-numerico:hover{
+    background-color: #4f4f4f;
+}
+.boton-operaciones:hover{
+    background-color:#f6a85b ;
+}
+.boton-opciones:hover{
+    background-color:#d3d3d3;
+}
