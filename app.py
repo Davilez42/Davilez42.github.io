@@ -2,7 +2,7 @@ from flask import Flask,render_template,request,flash,redirect,url_for
 from config import config
 import json
 import time as t
-app = Flask(__name__)#obtengo un objeto  para iniciar un servitos
+app = Flask(__name__)#obtengo un objeto  para iniciar un servidor
 
 @app.route('/')
 def home():
@@ -20,4 +20,4 @@ def solu():
 
 if __name__ == '__main__':
     app.config.from_object(config['development'])
-    app.run()
+    app.run(port=5000)
